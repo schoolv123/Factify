@@ -1,5 +1,6 @@
 {
   "name": "factify",
+  "description": "Web app for landing and admin panel for factify android app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
