@@ -72,22 +72,22 @@ export default function Navbar() {
                         <p className="version">V 1.0.0</p>
                         <hr />
                         <div className="nav-item">
-                            <NavLink activeClassName="mobile-active" to="home">
+                            <NavLink className={({ isActive }) => isActive ? "mobile-active" : ''} to="home">
                                 <i className="bx bx-home-alt"></i>Home
                             </NavLink>
                         </div>
                         <div className="nav-item">
-                            <NavLink activeClassName="mobile-active" to="about">
+                            <NavLink className={({ isActive }) => isActive ? "mobile-active" : ''} to="about">
                                 <i className="bx bx-id-card"></i> Abouts
                             </NavLink>
                         </div>
                         <div className="nav-item">
-                            <NavLink activeClassName="mobile-active" to="features">
+                            <NavLink className={({ isActive }) => isActive ? "mobile-active" : ''} to="features">
                                 <i className="bx bx-category-alt"></i> App Features
                             </NavLink>
                         </div>
                         <div className="nav-item">
-                            <NavLink activeClassName="mobile-active" to="contact">
+                            <NavLink className={({ isActive }) => isActive ? "mobile-active" : ''} to="contact">
                                 <i className="bx bxs-envelope"></i> Contacts
                             </NavLink>
                         </div>
